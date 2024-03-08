@@ -8,7 +8,7 @@ const Navbar = () => {
 
     <nav className='navbar-main'>
       navlinks
-      {/* <NavLink to="/">Ugolki</NavLink>
+      {/* <NavLink to="/ugolki">Ugolki</NavLink>
       <br></br>
       <br></br>
       <NavLink to="/">Samorezi</NavLink>
