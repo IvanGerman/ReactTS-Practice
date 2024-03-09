@@ -7,14 +7,13 @@ const Navbar = () => {
   return (
 
     <nav className='navbar-main'>
-      navlinks
-      {/* <NavLink to="/ugolki">Ugolki</NavLink>
+      <NavLink to="/ugolki">Ugolki</NavLink>
       <br></br>
       <br></br>
-      <NavLink to="/">Samorezi</NavLink>
+      {/* <NavLink to="/samorezi">Samorezi</NavLink>
       <br></br>
       <br></br>
-      <NavLink to="/">Others</NavLink> */}
+      <NavLink to="/others">Others</NavLink> */}
     </nav>
   )
 }

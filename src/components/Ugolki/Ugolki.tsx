@@ -5,7 +5,7 @@ const Ugolki = () => {
   return (
 
     <div className='ugolki'>
-      Ugolki
+      Ugolki here
     </div>
   )
 }
