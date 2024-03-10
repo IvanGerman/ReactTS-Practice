@@ -10,10 +10,10 @@ const Navbar = () => {
       <NavLink to="/ugolki">Ugolki</NavLink>
       <br></br>
       <br></br>
-      {/* <NavLink to="/samorezi">Samorezi</NavLink>
+      <NavLink to="/samorezi">Samorezi</NavLink>
       <br></br>
       <br></br>
-      <NavLink to="/others">Others</NavLink> */}
+      {/* <NavLink to="/others">Others</NavLink> */}
     </nav>
   )
 }
