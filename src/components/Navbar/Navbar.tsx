@@ -13,7 +13,7 @@ const Navbar = () => {
       <NavLink to="/samorezi">Samorezi</NavLink>
       <br></br>
       <br></br>
-      {/* <NavLink to="/others">Others</NavLink> */}
+      <NavLink to="/others">Others</NavLink>
     </nav>
   )
 }
