@@ -1,18 +1,54 @@
+import { YMaps, Map, Placemark } from '@pbe/react-yandex-maps';
+
 import Navbar from '../Navbar/Navbar';
 import  './Startpage.css';
 
 const Startpage = () => {
 
+  let date = new Date().toLocaleString('ru', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  });
+
   return (
 
     <div className='main'>
-      <h2>В наличии на 01.05.24:</h2>
+      <h2>В наличии на {date}</h2>
       <Navbar/>
       <h2>Мобильный: 952 892 11 11</h2>
       <h2>Whatsapp: 952 892 11 11</h2>
       <h2>Адрес:</h2>
       <h3>микрорайон Наука, ул. Нарочанская 90</h3>
-      <div>здесь карта</div>
+      <div className='mapWrapper'>
+       <YMaps>
+        <div>
+          <Map width={450}
+               height={390} 
+               defaultState = {
+              { center: [56.48719833529011,85.05604923423313],
+               zoom: 14,
+               controls: ["zoomControl", "fullscreenControl"],
+              }}
+               modules={["control.ZoomControl", "control.FullscreenControl"]} >
+            <Placemark defaultGeometry = {[56.48719833529011,85.05604923423313]} 
+                       modules={["geoObject.addon.balloon"]}
+                       properties={{
+                        balloonContentBody:
+                          "Нарочанская 90",
+                      }}
+            />
+            <Placemark defaultGeometry = {[56.48868077480058,85.04907012637635]} 
+                       modules={["geoObject.addon.balloon"]}
+                       properties={{
+                        balloonContentBody:
+                          "Место поворота в мкр. Наука",
+                      }}
+            />
+          </Map>
+        </div>
+       </YMaps>
+      </div>
     </div>
   )
 }
