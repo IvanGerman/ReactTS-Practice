@@ -9,6 +9,7 @@ export const state: StateType = {
   samorezi: [
     { name: 'Саморез чёрный 3,5*41', linkToImage : '77345.png', linkToVideo : '77345.mp4', amount : 1200, price : 0.5 },
     { name: 'Саморез чёрный 4,2*70', linkToImage : '75345.png', linkToVideo : '75345.mp4', amount : 800, price : 0.8 },
+    { name: 'Саморез чёрный 3,5*35', linkToImage : '72345.png', linkToVideo : '72345.mp4', amount : 2200, price : 0.4 },
   ],
   others: [
     { name: 'Опора для бруса открытая 140*50*76', linkToImage : '33345.png', linkToVideo : '33345.mp4', amount : 20, price : 70 },
