@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import { state } from '../../state';
 import  './Samorezi.css';
 import SingleSamorez from './SingleSamorez/SingleSamorez';
@@ -14,6 +15,7 @@ const Samorezi = () => {
   return (
 
     <div className='samorezi'>
+      <NavLink to="/">На главную страницу</NavLink>
       {allSamorezi}
     </div>
   )

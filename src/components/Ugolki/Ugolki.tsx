@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import { state } from '../../state';
 import SingleUgolok from './SingleUgolok/SingleUgolok';
 import  './Ugolki.css';
@@ -13,6 +14,7 @@ const Ugolki = () => {
   return (
 
     <div className='ugolki'>
+      <NavLink to="/">На главную страницу</NavLink>
       {allUgolki}
     </div>
   )
