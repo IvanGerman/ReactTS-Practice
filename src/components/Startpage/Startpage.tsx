@@ -18,6 +18,7 @@ const Startpage = () => {
       <Navbar/>
       <h2>Мобильный: 952 892 11 11</h2>
       <h2>Whatsapp: 952 892 11 11</h2>
+      <h2>Email: ugolki@mail.ru</h2>
       <h2>Адрес:</h2>
       <h3>микрорайон Наука, ул. Нарочанская 90</h3>
       <div className='mapWrapper'>

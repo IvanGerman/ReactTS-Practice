@@ -1,0 +1,18 @@
+.singleSamorezWrapper {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.samorezImageWrapper {
+  width: 30vw;
+  height: 15vh;
+  overflow: hidden;
+}
+
+.samorezImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

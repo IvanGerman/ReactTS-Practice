@@ -7,16 +7,16 @@ const Navbar = () => {
   return (
 
     <nav className='navbar-main'>
-      <NavLink to="/ugolki">Ugolki</NavLink>
+      <NavLink to="/ugolki">Уголки</NavLink>
       <br></br>
       <br></br>
-      <NavLink to="/samorezi">Samorezi</NavLink>
+      <NavLink to="/samorezi">Саморезы</NavLink>
       <br></br>
       <br></br>
-      <NavLink to="/others">Others</NavLink>
+      <NavLink to="/others">Другие товары</NavLink>
       <br></br>
       <br></br>
-      <NavLink to="/podarok">Выбери подарок</NavLink>
+      {/* <NavLink to="/podarok">Выбери подарок</NavLink> */}
     </nav>
   )
 }
