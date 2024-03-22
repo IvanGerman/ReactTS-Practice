@@ -12,9 +12,9 @@ export const state: StateType = {
     { name: 'Уголок  98*98*88', linkToImage : '98345.png', linkToVideo : '98345.mp4', amount : 20, price : 42 },
   ],
   samorezi: [
-    { name: 'Саморез чёрный 3,5*36', linkToImage : Image1, linkToVideo : '72345.mp4', amount : 2200, price : 0.4 },
-    { name: 'Саморез чёрный 3,5*41', linkToImage : Image2, linkToVideo : '77345.mp4', amount : 1200, price : 0.5 },
-    { name: 'Саморез чёрный 4,2*64', linkToImage : Image3, linkToVideo : '75345.mp4', amount : 800, price : 0.8 },
+    { name: 'Саморез чёрный 3,5*36', linkToImage : Image1, linkToVideo : 'https://www.youtube.com/embed/-hZ6cJWZu4Y', amount : 2200, price : 0.4 },
+    { name: 'Саморез чёрный 3,5*41', linkToImage : Image2, linkToVideo : 'https://www.youtube.com/embed/VnNDrlRJzbs', amount : 1200, price : 0.5 },
+    { name: 'Саморез чёрный 4,2*64', linkToImage : Image3, linkToVideo : 'https://www.youtube.com/embed/Y91EVb6C4lg', amount : 800, price : 0.8 },
     
   ],
   others: [

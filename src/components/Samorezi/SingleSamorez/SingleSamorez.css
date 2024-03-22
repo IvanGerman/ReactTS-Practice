@@ -16,3 +16,8 @@
   height: 100%;
   object-fit: contain;
 }
+
+.samorezVideoWrapper {
+  max-width: 400px;
+  
+}
