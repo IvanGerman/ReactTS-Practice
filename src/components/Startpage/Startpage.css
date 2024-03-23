@@ -1,6 +1,30 @@
+.aboveLine {
+  width: 80%;
+  margin: 0 auto;
+  height: 1vh;
+  margin-top: 1vh;
+  background-color: rgb(178, 246, 176);
+}
+
 .mapWrapper {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+h2, h3 {
+  color: rgb(0, 58, 218);
+}
+
+a {
+  cursor: pointer;
+  font-size: 25px;
+  color: black;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+a:last-child {
+  font-size: 5px;
 }
