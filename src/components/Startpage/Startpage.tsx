@@ -15,14 +15,14 @@ const Startpage = () => {
 
     <div className='main'>
       <div className='aboveLine'></div>
-      <h2>В наличии на {date}</h2>
+      <h2 className='dateH2' >В наличии на {date}</h2>
       <Navbar/>
-      <h2>Мобильный: 952 892 11 11</h2>
-      <h2>Whatsapp: 952 892 11 11</h2>
-      <h2>Email: ugolki@mail.ru</h2>
-      <h2>Адрес:</h2>
-      <h3>микрорайон Наука</h3>
-      <h3>ул. Нарочанская 90</h3>
+      <h2 className='contactData' >Мобильный: 952 892 11 11</h2>
+      <h2 className='contactData' >Whatsapp: 952 892 11 11</h2>
+      <h2 className='contactData' >Email: ugolki@mail.ru</h2>
+      <h2 className='contactData' >Адрес:</h2>
+      <h3 className='contactData' >микрорайон Наука</h3>
+      <h3 className='contactData' >ул. Нарочанская 90</h3>
       <div className='mapWrapper'>
        <YMaps>
         <div>
@@ -39,7 +39,9 @@ const Startpage = () => {
                        properties={{
                         balloonContentBody:
                           "Нарочанская 90",
+                       
                       }}
+                      
             />
             <Placemark defaultGeometry = {[56.48868077480058,85.04907012637635]} 
                        modules={["geoObject.addon.balloon"]}

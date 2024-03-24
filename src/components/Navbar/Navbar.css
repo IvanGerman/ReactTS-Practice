@@ -1,3 +1,8 @@
 .navbar-main {
   
 }
+
+.navbarLink {
+  color: rgb(75, 27, 27);
+  -webkit-text-stroke: 1px black;
+}

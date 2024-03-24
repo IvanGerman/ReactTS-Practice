@@ -3,6 +3,7 @@
   justify-items: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 3vh;
 }
 
 .samorezImageWrapper {
@@ -19,5 +20,17 @@
 
 .samorezVideoWrapper {
   max-width: 400px;
-  
+}
+
+.itemName {
+  color: black;
+}
+
+.priceSpan {
+  color: #ff3792;
+  font-weight: 700;
+}
+
+.price-amountDiv {
+  font-weight: 600;
 }

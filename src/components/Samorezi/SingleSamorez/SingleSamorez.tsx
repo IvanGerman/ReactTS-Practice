@@ -8,15 +8,19 @@ export const SingleSamorez = (props: ItemDescriptionType) => {
 
     <div className='singleSamorezWrapper'>
       
-      <h3>{props.name}</h3>
+      <h3 className='itemName' >{props.name}</h3>
       <div className='samorezVideoWrapper'>
         <iframe src={props.linkToVideo} title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen loading="lazy"></iframe>
       </div>
       {/* <div className='samorezImageWrapper'>
         <img src={props.linkToImage} alt="" className='samorezImage' />
       </div> */}
-      <h4>Цена: {props.price}</h4>
-      <h4>Штук в наличии: {props.amount}</h4>
+      <h4>Цена: </h4>
+      <div className='price-amountDiv' >100 штук - <span className='priceSpan'>{props.price}</span> рублей</div>
+      <div className='price-amountDiv'>1 кг - <span className='priceSpan'>250</span> рублей</div>
+      <h4>В наличии: </h4>
+      <div className='price-amountDiv'>{props.amount} штук</div>
+      <div className='price-amountDiv'>1 кг</div>
       
     </div>
   )

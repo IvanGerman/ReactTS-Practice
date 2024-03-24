@@ -14,7 +14,8 @@ const Ugolki = () => {
   return (
 
     <div className='ugolki'>
-      <NavLink to="/">На главную страницу</NavLink>
+      <div className='aboveLine'></div>
+      <NavLink to="/" className='backToStartLink'>На главную страницу</NavLink>
       {allUgolki}
     </div>
   )

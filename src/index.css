@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+h4 {
+  color: blue;
+  margin-bottom: 1vh;
+}
