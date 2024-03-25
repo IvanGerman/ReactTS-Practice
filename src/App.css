@@ -3,3 +3,28 @@
 }
 
 
+
+.singleItemWrapper {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3vh;
+}
+
+.itemName {
+  color: black;
+}
+
+.itemVideoWrapper {
+  max-width: 400px;
+}
+
+.priceSpan {
+  color: #ff3792;
+  font-weight: 700;
+}
+
+.price-amountDiv {
+  font-weight: 600;
+}

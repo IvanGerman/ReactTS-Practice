@@ -17,8 +17,8 @@ const Startpage = () => {
       <div className='aboveLine'></div>
       <h2 className='dateH2' >В наличии на {date}</h2>
       <Navbar/>
-      <h2 className='contactData' >Мобильный: 952 892 11 11</h2>
-      <h2 className='contactData' >Whatsapp: 952 892 11 11</h2>
+      <h2 className='contactData' >Мобильный: 952 892 14 25</h2>
+      <h2 className='contactData' >Whatsapp: 952 892 14 25</h2>
       <h2 className='contactData' >Email: ugolki@mail.ru</h2>
       <h2 className='contactData' >Адрес:</h2>
       <h3 className='contactData' >микрорайон Наука</h3>

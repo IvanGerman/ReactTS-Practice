@@ -5,16 +5,18 @@ export const SingleOthers = (props: ItemDescriptionType) => {
 
   return (
 
-    <div className='singleOthersWrapper'>
-      <h3>{props.name}</h3>
-      <div>
-        <img src={props.linkToImage} alt="" />
+    <div className='singleItemWrapper'>
+      
+      <h3 className='itemName' >{props.name}</h3>
+      <div className='itemVideoWrapper'>
+        <iframe src={props.linkToVideo} title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen loading="lazy"></iframe>
       </div>
-      <h4>Цена: {props.price}</h4>
-      <h4>Штук в наличии: {props.amount}</h4>
-      <div>
-        <video src={props.linkToVideo}></video>
-      </div>
+      <h4>Цена: </h4>
+      <div className='price-amountDiv' >1 штука - <span className='priceSpan'>{props.price}</span> рублей</div>
+      <div className='price-amountDiv' >100 штук - <span className='priceSpan'>{props.price * 100}</span> рублей</div>
+      <h4>В наличии: </h4>
+      <div className='price-amountDiv'>{props.amount} штук</div>
+      
     </div>
   )
 }
