@@ -43,13 +43,13 @@ const Startpage = () => {
                       }}
                       
             />
-            <Placemark defaultGeometry = {[56.48868077480058,85.04907012637635]} 
+            {/* <Placemark defaultGeometry = {[56.48868077480058,85.04907012637635]} 
                        modules={["geoObject.addon.balloon"]}
                        properties={{
                         balloonContentBody:
                           "Место поворота в мкр. Наука",
                       }}
-            />
+            /> */}
           </Map>
         </div>
        </YMaps>
