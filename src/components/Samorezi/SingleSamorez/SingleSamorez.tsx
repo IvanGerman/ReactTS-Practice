@@ -14,10 +14,10 @@ export const SingleSamorez = (props: ItemDescriptionType) => {
       </div>
       <h4>Цена: </h4>
       <div className='price-amountDiv' >100 штук - <span className='priceSpan'>{props.price}</span> рублей</div>
-      <div className='price-amountDiv'>1 кг - <span className='priceSpan'>250</span> рублей</div>
+      <div className='price-amountDiv'>1 кг ({props.numberInKG} штук) - <span className='priceSpan'>{props.priceKG}</span> рублей</div>
       <h4>В наличии: </h4>
       <div className='price-amountDiv'>{props.amount} штук</div>
-      <div className='price-amountDiv'>1 кг</div>
+      <div className='price-amountDiv'>{props.amountKG} кг</div>
       
     </div>
   )

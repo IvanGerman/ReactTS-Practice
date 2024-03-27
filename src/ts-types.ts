@@ -3,7 +3,10 @@ export type ItemDescriptionType = {
   linkToImage: string
   linkToVideo: string
   amount: number
+  amountKG: number
   price: number
+  priceKG: number
+  numberInKG: number
 };
 
 export type StateType = {

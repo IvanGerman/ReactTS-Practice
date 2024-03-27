@@ -19,7 +19,7 @@ const Startpage = () => {
       <Navbar/>
       <h2 className='contactData' >Мобильный: 952 892 14 25</h2>
       <h2 className='contactData' >Whatsapp: 952 892 14 25</h2>
-      <h2 className='contactData' >Email: ugolki@mail.ru</h2>
+      <h2 className='contactData' >Email: ugolki70@mail.ru</h2>
       <h2 className='contactData' >Адрес:</h2>
       <h3 className='contactData' >микрорайон Наука</h3>
       <h3 className='contactData' >ул. Нарочанская 90</h3>
