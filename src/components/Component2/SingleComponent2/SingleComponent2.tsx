@@ -1,7 +1,7 @@
 import { ItemDescriptionType } from '../../../ts-types';
-import  './SingleUgolok.css';
+import  './SingleComponent2.css';
 
-export const SingleUgolok = (props: ItemDescriptionType) => {
+export const SingleComponent2 = (props: ItemDescriptionType) => {
 
   return (
 
@@ -21,4 +21,4 @@ export const SingleUgolok = (props: ItemDescriptionType) => {
   )
 }
 
-export default SingleUgolok;
+export default SingleComponent2;

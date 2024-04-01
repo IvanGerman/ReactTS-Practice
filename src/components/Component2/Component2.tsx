@@ -1,13 +1,13 @@
 import { NavLink } from 'react-router-dom';
 import { state } from '../../state';
-import SingleUgolok from './SingleUgolok/SingleUgolok';
-import  './Ugolki.css';
+import  SingleComponent2 from './SingleUgolok/SingleComponent2';
+import  './Component2.css';
 
-const Ugolki = () => {
+const Component2 = () => {
 
   const allUgolki = state.ugolki.map( (ugolok, index) => {
     return (
-      <SingleUgolok key={index} name={ugolok.name} linkToImage={ugolok.linkToImage} price={ugolok.price} priceKG={ugolok.priceKG} numberInKG={ugolok.numberInKG} amount={ugolok.amount} amountKG={ugolok.amountKG} linkToVideo={ugolok.linkToVideo} />
+      <SingleComponent2 key={index} name={ugolok.name} linkToImage={ugolok.linkToImage} price={ugolok.price} priceKG={ugolok.priceKG} numberInKG={ugolok.numberInKG} amount={ugolok.amount} amountKG={ugolok.amountKG} linkToVideo={ugolok.linkToVideo} />
     )
   })
 
@@ -22,4 +22,4 @@ const Ugolki = () => {
   )
 }
 
-export default Ugolki;
+export default Component2;
