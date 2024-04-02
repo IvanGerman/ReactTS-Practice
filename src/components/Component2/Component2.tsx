@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import { state } from '../../state';
-import  SingleComponent2 from './SingleUgolok/SingleComponent2';
+import  SingleComponent2 from './SingleComponent2/SingleComponent2';
 import  './Component2.css';
 
 const Component2 = () => {
@@ -15,7 +15,7 @@ const Component2 = () => {
 
     <div className='ugolki'>
       <div className='aboveLine'></div>
-      <NavLink to="/" className='backToStartLink'>На главную страницу</NavLink>
+      <NavLink to="/" className='backToStartLink'>Go to StartPage</NavLink>
       <p>То что в наличии, можно забрать сразу, если нужно больше или других размеров, делайте заказ (ждать 3-10 дней)</p>
       {allUgolki}
     </div>

@@ -10,13 +10,12 @@ const Navbar = () => {
       <NavLink to="/component2" className='navbarLink'>Component2</NavLink>
       <br></br>
       <br></br>
-      <NavLink to="/samorezi" className='navbarLink'>Саморезы</NavLink>
+      <NavLink to="/component3" className='navbarLink'>Component3</NavLink>
       <br></br>
       <br></br>
-      <NavLink to="/others" className='navbarLink'>Другие товары</NavLink>
+      
       <br></br>
       <br></br>
-      {/* <NavLink to="/podarok">Выбери подарок</NavLink> */}
     </nav>
   )
 }
