@@ -13,7 +13,7 @@ const Navbar = () => {
       <NavLink to="/component3" className='navbarLink'>Component3</NavLink>
       <br></br>
       <br></br>
-      
+      <NavLink to="/component4" className='navbarLink'>Component4</NavLink>
       <br></br>
       <br></br>
     </nav>
