@@ -6,6 +6,7 @@ import Component2 from './components/Component2/Component2';
 import Component3 from './components/Component3/Component3';
 import Component4 from './components/Component4/Component4';
 import Component5 from './components/Component5/Component5';
+import Component6 from './components/Component6/Component6';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="component3/*" element={<Component3/>}/>
           <Route path="component4/*" element={<Component4/>}/>
           <Route path="component5/*" element={<Component5/>}/>
+          <Route path="component6/*" element={<Component6/>}/>
         </Routes>
     </div>
   );
