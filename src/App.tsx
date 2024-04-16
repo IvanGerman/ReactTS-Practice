@@ -8,6 +8,7 @@ import Component4 from './components/Component4/Component4';
 import Component5 from './components/Component5/Component5';
 import Component6 from './components/Component6/Component6';
 import Component7 from './components/Component7/Component7';
+import Component8 from './components/Component8/Component8';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="component5/*" element={<Component5/>}/>
           <Route path="component6/*" element={<Component6/>}/>
           <Route path="component7/*" element={<Component7/>}/>
+          <Route path="component8/*" element={<Component8/>}/>
         </Routes>
     </div>
   );
