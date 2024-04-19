@@ -10,6 +10,7 @@ import Component6 from './components/Component6/Component6';
 import Component7 from './components/Component7/Component7';
 import Component8 from './components/Component8/Component8';
 import Component9 from './components/Component9/Component9';
+import Component10 from './components/Component10/Component10';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="component7/*" element={<Component7/>}/>
           <Route path="component8/*" element={<Component8/>}/>
           <Route path="component9/*" element={<Component9/>}/>
+          <Route path="component10/*" element={<Component10/>}/>
         </Routes>
     </div>
   );
