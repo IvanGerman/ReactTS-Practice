@@ -34,6 +34,9 @@ const Navbar = () => {
       <NavLink to="/component10" className='navbarLink'>Component10</NavLink>
       <br></br>
       <br></br>
+      <NavLink to="/component11" className='navbarLink'>Component11</NavLink>
+      <br></br>
+      <br></br>
     </nav>
   )
 }
