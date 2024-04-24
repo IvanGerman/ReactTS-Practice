@@ -12,6 +12,7 @@ import Component8 from './components/Component8/Component8';
 import Component9 from './components/Component9/Component9';
 import Component10 from './components/Component10/Component10';
 import Component11 from './components/Component11/Component11';
+import Component12 from './components/Component12/Component12';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="component9/*" element={<Component9/>}/>
           <Route path="component10/*" element={<Component10/>}/>
           <Route path="component11/*" element={<Component11/>}/>
+          <Route path="component12/*" element={<Component12/>}/>
         </Routes>
     </div>
   );
