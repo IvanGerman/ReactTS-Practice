@@ -9,9 +9,9 @@ export function UsersProvider({ children }) {
 
   return (
   
-    <TasksContext.Provider value={users}>
+    <UsersContext.Provider value={users}>
         {children}
-    </TasksContext.Provider>
+    </UsersContext.Provider>
     
   );
 }
